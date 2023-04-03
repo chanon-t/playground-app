@@ -21,7 +21,7 @@ function App() {
   const [characterName, setCharacterName] = useState("");
   const [messages, setMessages] = useState([]);
 
-  const baseUrl = "http://localhost:3000/api/v1";
+  const baseUrl = "https://sekai-ai-dev-4gkakmc5ja-as.a.run.app/api/v1";
   const token =
     "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhvbHlkZG9nQGdtYWlsLmNvbSIsIm5hbWUiOiJIb2x5IEQgRG9nIiwidXNlcklkIjoiNjQyM2Y2M2NjNjdlZWI5NWEwNjk0NjA2IiwiaWF0IjoxNjgwNDkzNTM4LCJleHAiOjE3MTIwMjk1Mzh9.7j6INshzUqzaiSDBYFq0nbIofauSDJbI9EPqd_mHRZc";
 
